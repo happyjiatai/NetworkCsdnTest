@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadHtml() {
         try {
-            URL url = new URL("https://www.baidu.com/");
+//            URL url = new URL("https://www.baidu.com/");
+            URL url = new URL("http://www.xiuchuang.com/question/5475.html");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setConnectTimeout(10000);
             connection.setRequestMethod("GET");
